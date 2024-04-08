@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>oauth</artifactId>
+	<groupId>ch.webruler.sample</groupId>
+	<version>0.1-SNAPSHOT</version>
+	<name>OAuth2 Sample Multimodule</name>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.4</version>
+		<relativePath></relativePath>
+	</parent>
+
+	<developers>
+		<developer>
+			<id>lpfisterer</id>
+			<name>Lorenz Pfisterer</name>
+			<organization>Webruler</organization>
+			<organizationUrl>www.webruler.ch</organizationUrl>
+			<email>lorenz.pfisterer[at]webruler.ch</email>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>oauth-server</module>
+		<module>oauth-ng</module>
+		<module>oauth-client</module>
+	</modules>
+
+</project>
