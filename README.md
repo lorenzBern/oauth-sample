@@ -28,4 +28,17 @@ Open browser on
 localhost:8080
 ```
 
+### DEV Mode 
+
+Start dev-server
+
+```
+cd oauth-ng/ && ng serve &
+```
+
+Open browser on 
+
+```
+localhost:4200
+```
 
