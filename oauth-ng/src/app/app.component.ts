@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
-    this.userInfo$ = this.httpClient.get<string>('user', { observe: 'response' });
+    this.userInfo$ = this.httpClient.get<string>('user');
   }
 
 }

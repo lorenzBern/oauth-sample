@@ -1,6 +1,0 @@
-ch/webruler/sample/oauth/client/OAuth2ClientApplication.class
-ch/webruler/sample/oauth/client/OAuth2ClientConfig.class
-ch/webruler/sample/oauth/client/OAuth2UserController.class
-ch/webruler/sample/oauth/client/SpaCsrfTokenRequestHandler.class
-ch/webruler/sample/oauth/client/LoopbackIpRedirectFilter.class
-ch/webruler/sample/oauth/client/CsrfCookieFilter.class
